@@ -1,0 +1,16 @@
+{
+    "name": "zulena/ejemplos",
+    "description": "Ejemplos videos  php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zulena"
+        }
+    ],
+    "require": {}
+}
