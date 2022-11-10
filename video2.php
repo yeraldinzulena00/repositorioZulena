@@ -47,8 +47,6 @@ $nolist = [1 => 'a', 'b','c'];
 var_dump(array_is_list($list));
 
 
-
-
 var_dump(arry_is_list($nolist));
 $list = array_filter($list, fn(string $value)=> $value !== 'b');
 
